@@ -4,4 +4,14 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>firstServlet</servlet-name>
+  	<display-name>firstServlet</display-name>
+  	<description></description>
+  	<servlet-class>firstServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>firstServlet</servlet-name>
+  	<url-pattern>/firstServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
